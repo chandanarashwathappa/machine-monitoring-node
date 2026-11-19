@@ -1,0 +1,18 @@
+# PC build
+build/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# ESP-IDF (phase 2)
+firmware/esp32/build/
+firmware/esp32/sdkconfig.old
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
